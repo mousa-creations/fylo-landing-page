@@ -28,7 +28,6 @@ Users should be able to:
 ### Screenshot
 
 ![Desktop](https://i.imgur.com/WTbX1zv.png)
-![Mobile](https://i.imgur.com/frjc3PK.png)
 
 
 ### Links
@@ -50,8 +49,7 @@ Users should be able to:
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
+I developed this website using HTML, CSS, and Bootstrap. I'm using Bootstrap. Firstly, I created the navbar and hero section, followed by the features and newsletter, and finally the footer.
 
 
 ### Useful resources
