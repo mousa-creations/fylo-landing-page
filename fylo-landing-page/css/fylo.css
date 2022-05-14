@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@700&display=swap");
+
+:root {
+  --VeryDark-Blue: hsl(243, 87%, 12%);
+  --Desaturated-Blue: hsl(238, 22%, 44%);
+  --BrightBlue: hsl(224, 93%, 58%);
+  --ModerateCyan: hsl(170, 45%, 43%);
+  --LightGrayish-Blue: hsl(240, 75%, 98%);
+  --LightGray: hsl(0, 0%, 75%);
+  --white-color: #fff;
+  --headings: "Raleway", sans-serif;
+  --body: "Open Sans", sans-serif;
+}
+
+body {
+  font-family: var(--body);
+  font-size: 16px;
+}
+
+/* Start Navbar  */
+.navbar {
+  font-family: var(--headings);
+  font-size: 0.9rem;
+}
+
+.navbar a {
+  color: var(--VeryDark-Blue);
+}
+
+.navbar .navbar-toggler {
+  color: var(--VeryDark-Blue);
+  font-size: 20px;
+}
+
+.navbar .navbar-toggler:focus {
+  box-shadow: none;
+}
+/* End Navbar  */
+/* Start Hero  */
+.txt-title {
+  font-family: var(--headings);
+}
+
+.txt-content {
+  font-family: var(--body);
+  font-size: 1.1rem;
+  margin-right: auto;
+  max-width: 36rem;
+}
+
+.b-sub {
+  padding: 0.5rem 4rem;
+}
+
+.form-control:focus {
+  color: #212529;
+  background-color: #fff;
+  border-color: #86b7fe;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgb(13 110 253 / 7%);
+}
+/* End Hero  */
+
+/* Start Features */
+.features {
+  background-image: url(/images/bg-curve-desktop.svg);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+  padding-top: 5rem;
+}
+
+.txt-features {
+  font-family: var(--headings);
+}
+
+.card {
+  font-size: 1rem;
+  background-color: var(--white-color);
+  border-radius: 0.5rem;
+  /* box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24); */
+  box-shadow: 10px -10px 14px -4px rgba(0, 0, 0, 0.07);
+}
+
+.card-body {
+  padding: 2.2rem;
+}
+
+p.nam {
+  font-size: 0.9rem;
+}
+
+.job {
+  font-size: 0.8rem;
+}
+/* End Features */
+
+/* Start Newsletter */
+.email-news {
+  background-color: var(--Desaturated-Blue);
+  padding: 70px 0px;
+  color: var(--white-color);
+}
+
+a.live {
+  color: var(--ModerateCyan);
+  text-decoration: none;
+}
+
+hr {
+  margin: 4px;
+  width: 38%;
+  color: var(--ModerateCyan);
+  opacity: 100%;
+  display: block;
+  border-style: inset;
+  border-width: 1px;
+}
+
+form input[type="email"] {
+  padding: 10px;
+  border-radius: 2px;
+}
+/* End Newsletter */
+/* Start Footer  */
+.mega-foot {
+  background-color: var(--VeryDark-Blue);
+  padding: 40px 0;
+}
+
+.link a {
+  text-decoration: none;
+}
+
+.link a:hover {
+  color: var(--BrightBlue) !important;
+}
+
+.social-icons a {
+  color: var(--white-color);
+  text-decoration: none;
+}
+
+.circle {
+  border: 1px solid;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  padding: 5px 9px;
+  text-align: center;
+}
+
+.social-icons a:hover,
+.social-icons .circle:hover {
+  color: var(--BrightBlue);
+}
+/* End Footer  */
+
+@media (min-width: 992px) {
+  input#inlineForm {
+    width: 50%;
+  }
+}
