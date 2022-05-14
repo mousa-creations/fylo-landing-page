@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Screenshot
 
-![Desktop](/design/desktop-design.png)
-![Mobile](/design/mobile-design.png)
+![Desktop](https://i.imgur.com/WTbX1zv.png)
+![Mobile](https://i.imgur.com/frjc3PK.png)
 
 
 ### Links
